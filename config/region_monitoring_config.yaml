@@ -1,0 +1,22 @@
+yolo:
+  model_path: "/insert/path/to/your/yolo/model"
+
+video:
+  input_path: "insert/path/to/your/input/video"
+  output_path: "insert/path/to/your/output/video"
+  codec: "mp4v"
+
+region:
+  points:
+    - [1050, 300]
+    - [1100, 300]
+    - [1050, 1020]
+    - [1000, 1020]
+  fill_alpha: 0.3
+  engaged_color: [0, 255, 0]  # Green color when engaged
+  idle_color: [0, 165, 255]  # Orange color when idle
+  line_thickness: 2
+
+status_bar:
+  engaged_color: [0, 255, 0]  # Green color for text when engaged
+  idle_color: [0, 165, 255]  # Orange color for text when idle
