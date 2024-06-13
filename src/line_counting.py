@@ -1,5 +1,5 @@
 """
-object_counting.py
+line_counting.py
 
 This script uses the YOLO model for object counting in a video file.
 The video is processed frame by frame, and the counted objects are saved to a new video file.
@@ -68,7 +68,7 @@ def main():
     Main function to process the video.
     """
     try:
-        with open('../config/object_counting_config.yaml', 'r') as file:
+        with open('../config/line_counting_config.yaml', 'r') as file:
             config = yaml.safe_load(file)
     except FileNotFoundError:
         logging.error("Configuration file not found.")
