@@ -1,0 +1,24 @@
+yolo:
+  model_path: "/insert/path/to/your/yolo/model"
+  device: "cpu"  # Change to "0" for GPU
+
+video:
+  input_path: "insert/path/to/your/input/video"
+  output_path: "insert/path/to/your/output/directory"
+  save_output: true  # Change to false if you do not want to save the output
+
+counter:
+  view_img: true
+  line_thickness: 2
+  region_thickness: 4
+
+regions:
+  - name: "YOLOv8 Rectangle Region"
+    points:
+      - [100, 100]
+      - [550, 100]
+      - [500, 700]
+      - [50, 700]
+    region_color: [37, 255, 225]
+    text_color: [0, 0, 0]
+    display_text: "Backlog"
