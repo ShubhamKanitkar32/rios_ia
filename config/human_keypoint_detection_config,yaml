@@ -1,0 +1,11 @@
+yolo:
+  model_path: "yolov8n-pose.pt"  # Change to "path/to/best.pt" for a custom model
+
+prediction:
+  input_path: "insert/path/to/your/input/video/or/image(s)"
+  show: True
+  save: False
+  show_boxes: True
+  show_labels: True
+  show_conf: False
+  conf: 0.20
