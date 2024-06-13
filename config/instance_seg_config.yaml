@@ -1,0 +1,6 @@
+yolo:
+  model_path: "/insert/path/to/your/yolo/model"
+
+video:
+  input_path: "insert/path/to/your/input/video"
+  output_path: "insert/path/to/your/output/video"
