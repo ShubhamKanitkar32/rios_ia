@@ -1,3 +1,11 @@
+"""
+region_counting.py
+
+This script uses the YOLO model for object counting in a region in a video file.
+The video is processed frame by frame, and the counted objects are shown in the video.
+The user has an ability to move the counting regions in the video.
+The paths for the model and the input and output videos, as well as the region counting configurations, are specified in a configuration file.
+"""
 import os
 import logging
 import yaml
