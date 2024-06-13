@@ -1,0 +1,19 @@
+yolo:
+  model_path: "/insert/path/to/your/yolo/model"
+
+video:
+  input_path: "insert/path/to/your/input/video"
+  output_path: "insert/path/to/your/output/video"
+
+region:
+  points:
+    - [30, 750]
+    - [2000, 750]
+
+counter:
+  view_img: true
+  line_thickness: 2
+  region_thickness: 3
+  view_in_counts: True
+  view_out_counts: False
+  count_reg_color: [0, 0, 255]
